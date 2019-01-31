@@ -15,7 +15,7 @@ header.startup {
   background-size: cover;
   height: 100%;
 }
-#mc_embed_signup{
+#mc-embedded-subscribe{
   position: fixed;
   left:0;
   bottom: 0;
