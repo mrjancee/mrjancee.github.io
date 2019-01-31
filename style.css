@@ -15,6 +15,14 @@ header.startup {
   background-size: cover;
   height: 100%;
 }
+#mc_embed_signup{
+  position: absolute;
+  top: 600px;
+  left: 1200px;
+  font:14px;
+  background-color: transparent;
+}
+
 
 
 .btn {
@@ -23,20 +31,48 @@ header.startup {
   border-radius: 300px;
   font-family: 'Play', sans-serif;
 
+
 }
 
-.btn-xl {
-  padding: 1rem 2rem; 
+.btn-link, .btn-link:hover, .btn-link:active, .btn-link:visited, .btn-link:focus {
+    text-decoration:none;
 }
+
+.btn-link{
+  color: white;
+  border-radius: none;
+  background-color: transparent;
+  border-color: none;
+  display: inline-block;
+
+
+   }
+
+.btn-link:hover {
+  color: #F05F44;
+  background-color: transparent;
+  border-color: none;
+}
+
+.btn-link:visited {
+  color: #F05F44;
+  background-color: transparent;
+  border-color: none;
+}
+
+
 
 .btn-primary {
   background-color: transparent;
-  border-color: #F05F44; }
+  border-style: none;
+  }
 
 .btn-primary:hover {
   background-color: transparent;
+  border-style: inset;
   border-color: #ee4b08;
   border-width: 5px;
+
  
 }
   
