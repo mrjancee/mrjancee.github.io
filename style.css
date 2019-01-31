@@ -19,6 +19,7 @@ header.startup {
   position: absolute;
   top: 600px;
   left: 1200px;
+  margin-bottom: 10px;
   font:14px;
   background-color: transparent;
 }
@@ -27,7 +28,6 @@ header.startup {
 
 .btn {
   font-weight: 700;
-  
   border-radius: 300px;
   font-family: 'Satisfy', cursive;
 
@@ -58,7 +58,7 @@ header.startup {
 .btn-link:visited {
   color: #F05F44;
   background-color: transparent;
-  border-color: none;
+  border-color: unset;
 }
 
 .btn-xl {
@@ -66,14 +66,16 @@ header.startup {
 }
 
 .btn-primary {
+
   font-size: 70px;
   background-color: transparent;
   border-style: none;
   }
 
 .btn-primary:hover {
+  color: #F05F44;
   background-color: transparent;
-  border-style: inset;
+  border-style: unset;
   border-color: #ee4b08;
   border-width: 5px;
 
