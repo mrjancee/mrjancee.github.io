@@ -59,7 +59,7 @@ header.startup {
 .btn-link:visited {
   color: #F05F44;
   background-color: transparent;
-  border-color: unset;
+  border-color: none;
 }
 
 .btn-xl {
