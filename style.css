@@ -16,11 +16,12 @@ header.startup {
   height: 100%;
 }
 #mc_embed_signup{
-  position: absolute;
-  top: 600px;
-  left: 1200px;
-  margin-bottom: 10px;
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
   font:14px;
+  text-align: right;
   background-color: transparent;
 }
 
