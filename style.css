@@ -5,7 +5,7 @@ html {
   height: 100%; 
 }
 body {
-font-family: 'Play', sans-serif;
+font-family: 'Satisfy', cursive;
 
 }
 
@@ -27,9 +27,9 @@ header.startup {
 
 .btn {
   font-weight: 700;
-  font-size: 25px;
+  
   border-radius: 300px;
-  font-family: 'Play', sans-serif;
+  font-family: 'Satisfy', cursive;
 
 
 }
@@ -40,6 +40,7 @@ header.startup {
 
 .btn-link{
   color: white;
+   font-size: 25px;
   border-radius: none;
   background-color: transparent;
   border-color: none;
@@ -60,9 +61,12 @@ header.startup {
   border-color: none;
 }
 
-
+.btn-xl {
+  padding: 1rem 2rem;
+}
 
 .btn-primary {
+  font-size: 70px;
   background-color: transparent;
   border-style: none;
   }
