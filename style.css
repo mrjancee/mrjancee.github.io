@@ -76,7 +76,7 @@ header.startup {
 .btn-primary:hover {
   color: #F05F44;
   background-color: transparent;
-  border-style: unset;
+  border-style: none;
   border-color: #ee4b08;
   border-width: 5px;
 
